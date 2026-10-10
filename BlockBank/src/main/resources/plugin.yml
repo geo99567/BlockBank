@@ -1,0 +1,23 @@
+name: BlockBank
+version: 1.0.0
+main: com.geo99567.blockbank.BlockBankPlugin
+api-version: '26.2'
+description: A configurable economy, shop GUI, and item-selling GUI for Paper.
+author: geo99567
+commands:
+  shop:
+    description: Open the BlockBank shop.
+    usage: /shop
+  sell:
+    description: Open the item-selling menu.
+    usage: /sell
+  money:
+    description: Check your balance or another player's balance.
+    usage: /money [player]
+  shopadmin:
+    description: Configure BlockBank shop categories and prices.
+    usage: /shopadmin
+permissions:
+  blockbank.admin:
+    description: Manage BlockBank shop settings.
+    default: op
